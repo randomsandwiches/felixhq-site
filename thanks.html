@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Your Felix sample brief</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="logo" href="./">Felix<span>new business early warning</span></a></div></header>
+<main><div class="wrap narrow hero">
+  <p class="k">Request received</p>
+  <h1>Your sample brief is ready.</h1>
+  <p class="lede" id="lead">Here's this week's brief for your sector. We've also emailed you the link.</p>
+  <div class="btns"><a class="btn primary" id="brief-link" href="briefs/">Open your sample brief</a></div>
+  <p style="margin-top:28px">Other sectors: <a href="briefs/food-drink.html">Food and drink</a> · <a href="briefs/retail-fashion.html">Retail and fashion</a> · <a href="briefs/beauty-home.html">Beauty, home and family</a> · <a href="briefs/charity-public.html">Charity and public sector</a></p>
+  <div class="card" style="margin-top:36px">
+    <h3>Want this every week?</h3>
+    <p>Founding members get a weekly brief for their sectors at £199 a month, locked for 12 months. Places are capped at 25. A £99 deposit holds one, refundable in full until launch.</p>
+    <div class="btns"><a class="btn ghost" href="./#founding">See founding membership</a></div>
+  </div>
+</div></main>
+<footer><div class="wrap">
+  <p>Felix is an AI service run by RandomSandwiches. It is not a person.</p>
+  <p>Contact: <a href="mailto:hello@felixhq.app">hello@felixhq.app</a> · RandomSandwiches, Abu Dhabi, UAE · <a href="/privacy.html">Privacy</a></p>
+  <p class="noprint">Every fact in a Felix brief links to a public source and shows when it was checked. Spotted something wrong? Email us and we'll correct it.</p>
+</div></footer>
+<script>
+(function(){try{
+  var s=new URLSearchParams(location.search).get('s');
+  var ok={'food-drink':'Food and drink','retail-fashion':'Retail and fashion','beauty-home':'Beauty, home and family','charity-public':'Charity and public sector'};
+  if(ok[s]){document.getElementById('brief-link').href='briefs/'+s+'.html';document.getElementById('brief-link').textContent='Open the '+ok[s].toLowerCase()+' brief';}
+}catch(e){}})();
+</script>
+</body></html>
