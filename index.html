@@ -172,7 +172,7 @@
     <input type="hidden" name="_template" value="table">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" id="next" value="https://felixhq.app/thanks.html">
-    <input type="hidden" name="_autoresponse" value="Thanks for asking for a Felix sample brief. Your brief is here: https://felixhq.app/briefs/ . Each account has its sources and dates, so you can check anything in a click. Felix is an AI service run by RandomSandwiches. Reply to this email if you have a question, or to unsubscribe from anything further.">
+    <input type="hidden" name="_autoresponse" id="autoresponse" value="Thanks for asking for a Felix sample brief. Here it is: https://felixhq.app/briefs/ . Every account shows its sources and dates, so you can check anything in a click. Felix is an AI service run by RandomSandwiches, Abu Dhabi, UAE. Reply to this email if you have a question.">
     <input type="hidden" name="source" id="source" value="direct">
     <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
     <div class="row">
@@ -239,6 +239,17 @@
     f.addEventListener('submit',function(){
       var s=document.getElementById('sector').value;
       document.getElementById('next').value=location.origin+'/thanks.html?s='+encodeURIComponent(s);
+      var names={'food-drink':'food and drink','retail-fashion':'retail and fashion','beauty-home':'beauty, home and family','charity-public':'charity and public sector'};
+      if(names[s]){document.getElementById('autoresponse').value='Thanks for asking for a Felix sample brief. Here is this week\'s '+names[s]+' brief: https://felixhq.app/briefs/'+s+'.html . Every account shows its sources and dates, so you can check anything in a click. The other sectors are at https://felixhq.app/briefs/ . Felix is an AI service run by RandomSandwiches, Abu Dhabi, UAE. Reply to this email if you have a question.';}
+      var wl=f.querySelector('input[name=watchlist_opt_in]');
+      if(wl && wl.checked){
+        try{
+          var fd=new FormData();
+          fd.append('email_address',document.getElementById('email').value);
+          fd.append('fields[agency]',document.getElementById('agency').value);
+          fetch('https://app.kit.com/forms/10226330/subscriptions',{method:'POST',body:fd,mode:'no-cors',keepalive:true});
+        }catch(e){}
+      }
     });
   }catch(e){}
 })();
