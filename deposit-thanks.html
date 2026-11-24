@@ -25,4 +25,13 @@
   <p class="ladder-foot"><a href="/shortlist/">Read The Shortlist</a> (free, everyone) · <a href="/#request">Get your free brief</a> (free, once, for you) · <a href="/#pricing">Get Felix</a> (£199 a month, always on, for you)</p>
   <p class="legal">© 2026 RandomSandwiches · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="mailto:hello@felixhq.app">hello@felixhq.app</a></p>
 </div></footer>
+<script>(function(){try{
+  /* Someone who has asked for a free brief sees "Get Felix" as the header button from then on. */
+  if(location.pathname.indexOf('thanks.html')>-1 && location.pathname.indexOf('deposit')<0){localStorage.setItem('felix_brief','1');}
+  if(localStorage.getItem('felix_brief')==='1'){
+    var c=document.querySelector('header.top nav a.cta');
+    if(c){c.textContent='Get Felix';c.setAttribute('href','/#pricing');}
+    [].forEach.call(document.querySelectorAll('header.top nav a'),function(a){if(a!==c&&a.textContent.trim()==='Get Felix'){a.style.display='none';}});
+  }
+}catch(e){}})();</script>
 </body></html>
