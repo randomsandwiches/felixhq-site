@@ -1,0 +1,26 @@
+# Felix
+
+> Felix tells UK agencies which brands are likely to review their agency in the next 6 to 18 months, why, and how to get in before the review starts.
+
+Felix is run by RandomSandwiches. It's for founders, MDs and new business leads at independent and mid-sized agencies: creative and brand, media, PR and comms, digital and performance, social and content, design, experiential, and tech and product.
+
+## What Felix does
+
+- Scores brands on how likely they are to review their agency, as a level (High, Medium, Low to medium, Low) with a timing window.
+- Shows the signs behind each score, such as a new owner, a new CEO or CMO, senior marketing roles advertised, or a long-standing agency, each with its public source and date.
+- Gives a route plan for each brand: who decides, who can introduce you, any pitch consultant, a one-page letter to send and when to email.
+- Covers the basics too: decision-makers with contact details, agencies on record and ad spend.
+- Works in the Felix app, Slack, HubSpot, Salesforce, Pipedrive, Claude and ChatGPT (via MCP), an API, and email.
+
+## Three ways to use it
+
+- [The Shortlist by Felix](https://felixhq.app/shortlist/): free every Thursday, the same for everyone. The five UK brands whose chance of an agency review rose most that week, with scores and reasons.
+- [Your free brief](https://felixhq.app/#request): free, once, made for your agency. The top 10 brands in your sector, scored, plus full route plans for 3 brands you name.
+- [Felix](https://felixhq.app/#pricing): £199 a month at the founding price (list £349). Every brand in your sectors plus your own targets, scored daily, with alerts, route plans, contacts and ad spend.
+
+## Notes
+
+- Every fact links to a public source and shows the date it was checked.
+- Scores are Felix's judgement from public signs, not a guarantee.
+- Felix doesn't scrape LinkedIn or use other vendors' data.
+- Contact: hello@felixhq.app

@@ -1,0 +1,6 @@
+/weekly /shortlist/ 301
+/weekly/ /shortlist/ 301
+/weekly/* /shortlist/:splat 301
+/watchlist /shortlist/ 301
+/watchlist/ /shortlist/ 301
+/watchlist/* /shortlist/:splat 301
