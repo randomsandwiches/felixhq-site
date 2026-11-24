@@ -301,3 +301,5 @@ ul.app-stack em{display:block;margin-left:34px;font-style:normal;color:var(--mut
 .wayin-lock a{margin-left:6px}
 .card.since{border-color:#c49a3c;background:#fdf8ec}
 footer .legal{margin-top:10px;opacity:.85}
+/* Temporary: hide Netlify's free-plan badge (24 Nov 2026). Remove this line to show it again. */
+#nl-badge-frame{display:none!important}
