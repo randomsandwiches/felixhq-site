@@ -305,3 +305,7 @@ footer .legal{margin-top:10px;opacity:.85}
 #nl-badge-frame{display:none!important}
 .btile{display:inline-grid;place-items:center;border-radius:8px;font:700 13px/1 "DM Sans",sans-serif;margin-right:10px;vertical-align:middle;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
 h3 .lvl-tag{margin-left:6px;margin-right:0}
+
+/* The brief cover ribbon overlaps the text on phones */
+@media (max-width:700px){.brief-head::after{display:none}}
+.btile{font-size:14px}

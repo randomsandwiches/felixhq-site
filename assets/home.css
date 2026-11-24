@@ -63,7 +63,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .b-head{display:flex;align-items:center;gap:12px}
 .b-head strong{display:block;font:600 24px/1 var(--serif)}
 .b-head small{color:var(--muted);font-size:13.5px}
-.b-tile{display:grid;place-items:center;width:40px;height:40px;border-radius:9px;background:#2d2d2d;color:#fffdf7;font-weight:700;font-size:13px}
+.b-tile{display:grid;place-items:center;width:40px;height:40px;border-radius:9px;background:#294427;color:#cf9a4e;font-weight:700;font-size:13px}
 .b-lvl{margin-left:auto;font-weight:700;font-size:14px;border-radius:7px;padding:5px 11px;background:var(--brass);color:#241a04;transition:background .4s,color .4s}
 .b-lvl.lo{background:#e8eeeb;color:#3c4d46}
 .b-lvl.md{background:#dbe8e2;color:var(--accent)}
@@ -218,7 +218,7 @@ body.is-home header.top .wrap,body.is-home footer .wrap{max-width:1180px}
 .rt-kinds strong{color:var(--ink)}
 .plan-card{background:var(--forest);color:#e6eeea;border-radius:16px;padding:26px 26px 20px;box-shadow:0 40px 80px -44px rgba(19,33,28,.6)}
 .pc-head{display:flex;gap:12px;align-items:center;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.12)}
-.pc-head .b-tile{background:#2d2d2d;color:#fffdf7;box-shadow:0 0 0 1px rgba(255,255,255,.25)}
+.pc-head .b-tile{background:#294427;color:#cf9a4e;box-shadow:0 0 0 1px rgba(255,255,255,.25)}
 .pc-head strong{display:block;font:600 22px/1.1 var(--serif);color:#fff}
 .pc-head small{color:#9fb3ab;font-size:13.5px}
 .pc-steps{list-style:none;margin:0;padding:0}
@@ -278,3 +278,22 @@ body.is-home header.top .wrap,body.is-home footer .wrap{max-width:1180px}
 @media (max-width:900px){.ladder{grid-template-columns:1fr}}
 @media (max-width:600px){.h-ladder{padding-bottom:68px}}
 .ladder-why{font-size:19px;line-height:1.55;color:var(--ink);max-width:62ch;margin:0;padding-left:16px;border-left:3px solid var(--brass)}
+
+/* Brands moving up: real brand colours under the hero */
+.h-moving{padding:40px 0 8px}
+.mv-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:16px}
+.mv-head h2{margin:0;font:600 22px/1.2 var(--serif)}
+.mv-head a{font-size:14.5px;font-weight:600;color:var(--forest,#1d3a31)}
+.mv-row{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.mv-row li{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#fff;min-width:0}
+.mv-tile{flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:9px;font-weight:800;font-size:13px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.mv-name{font-weight:600;font-size:14.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+.mv-lvl{flex:none;font-size:12px;font-weight:700;padding:3px 7px;border-radius:6px}
+.mv-lvl.hi{background:#fbefd5;color:#8a5a00}
+.mv-lvl.md{background:#e6efe9;color:#2f5d50}
+@media (max-width:900px){.mv-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.h-moving{padding:32px 0 0}.mv-head{flex-direction:column;gap:4px}.mv-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:24px;margin:0 -24px;padding:0 24px 6px;scrollbar-width:none}.mv-row::-webkit-scrollbar{display:none}.mv-row li{flex:0 0 auto;scroll-snap-align:start}.mv-name{white-space:nowrap;overflow:visible}}
+/* LEON's own colour on the example cards */
+.build{border-top:5px solid #294427}
+.plan-card{box-shadow:inset 0 5px 0 #cf9a4e,0 40px 80px -44px rgba(19,33,28,.6)}
+.h-moving .mv-head h2{font:600 24px/1.2 var(--serif);max-width:none;margin:0;letter-spacing:0}
