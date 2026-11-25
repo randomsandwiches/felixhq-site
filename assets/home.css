@@ -372,3 +372,6 @@ body.is-home header.top .wrap,body.is-home footer .wrap{max-width:1180px}
 .mv-row li{align-items:center}
 .mv-name{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.2}
 @media (min-width:901px){.mv-row{grid-template-columns:repeat(5,minmax(0,1fr))}.mv-row li{min-height:64px}}
+/* Strip names always wrap inside their tile */
+.mv-name{white-space:normal!important;overflow-wrap:anywhere;hyphens:auto}
+@media (max-width:600px){.mv-row li{width:210px;min-height:62px}}
