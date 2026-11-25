@@ -12,7 +12,7 @@ Felix is run by RandomSandwiches. It's for founders, MDs and new business leads 
 - Covers the basics too: decision-makers with contact details, agencies on record and ad spend.
 - Works in the Felix app, Slack, HubSpot, Salesforce, Pipedrive, Claude and ChatGPT (via MCP), an API, and email.
 
-## Three ways to use it
+## Start free, then get Felix
 
 - [The Shortlist by Felix](https://felixhq.app/shortlist/): free every Thursday, the same for everyone. The five UK brands whose chance of an agency review rose most that week, with scores and reasons.
 - [Your free brief](https://felixhq.app/#request): free, once, made for your agency. The top 10 brands in your sector, scored, plus full route plans for 3 brands you name.
@@ -24,3 +24,9 @@ Felix is run by RandomSandwiches. It's for founders, MDs and new business leads 
 - Scores are Felix's judgement from public signs, not a guarantee.
 - Felix doesn't scrape LinkedIn or use other vendors' data.
 - Contact: hello@felixhq.app
+
+## More detail
+- Felix watches 36 signs in 7 families: ownership and money, leadership and people, marketing team and hiring, agency relationship, performance and strategy, brand and launches, media and spend.
+- For each decision-maker, Felix shows their career, the agencies they've worked with, what they've said in public about their priorities and the best way to approach them. Professional, public and sourced information only.
+- Warm routes come from the agency's own CRM, team inboxes and calendars, past clients and former colleagues. Felix also writes a one-page letter and posts it for you.
+- [Track record](https://felixhq.app/track-record/): every call Felix makes, with its date, and outcomes as they come in. The hit rate will be published once there's enough history.

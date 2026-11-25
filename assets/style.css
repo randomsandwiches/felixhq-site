@@ -309,3 +309,7 @@ h3 .lvl-tag{margin-left:6px;margin-right:0}
 /* The brief cover ribbon overlaps the text on phones */
 @media (max-width:700px){.brief-head::after{display:none}}
 .btile{font-size:14px}
+.tr-wrap{overflow-x:auto;margin-top:22px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.tr-table{width:100%;border-collapse:collapse;font-size:15px;min-width:640px}
+.tr-table th{text-align:left;font-size:13px;font-weight:700;padding:12px 14px;border-bottom:1px solid var(--line);background:#f6f4ee}
+.tr-table td{padding:12px 14px;border-top:1px solid #eee;vertical-align:top;line-height:1.4}
