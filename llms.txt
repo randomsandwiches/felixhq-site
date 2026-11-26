@@ -2,10 +2,11 @@
 
 > Felix tells UK agencies which brands are likely to review their agency in the next 6 to 18 months, why, and how to get in before the review starts.
 
-Felix is run by RandomSandwiches. It's for founders, MDs and new business leads at independent and mid-sized agencies: creative and brand, media, PR and comms, digital and performance, social and content, design, experiential, and tech and product.
+Felix is run by RandomSandwiches. It's for founders, MDs and new business leads at agencies of every kind: creative and advertising, brand and design, media, PR and comms, corporate and public affairs, social and content, ecommerce and marketplace, SEO, search and performance, web, app and product, B2B marketing, CRM and loyalty, experiential, employer brand and internal comms, and health and pharma.
 
 ## What Felix does
 
+- Works out who each agency sells to (a CMO, a head of ecommerce, a comms director, a CTO and so on) and watches the signs that move that buyer. An Amazon or marketplace agency hears about new ecommerce leads and marketplace moves, not new CMOs.
 - Scores brands on how likely they are to review their agency, as a level (High, Medium, Low to medium, Low) with a timing window.
 - Shows the signs behind each score, such as a new owner, a new CEO or CMO, senior marketing roles advertised, or a long-standing agency, each with its public source and date.
 - Gives a route plan for each brand: who decides, who can introduce you, any pitch consultant, a one-page letter to send and when to email.
