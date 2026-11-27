@@ -492,3 +492,18 @@ body.is-home header.top .wrap,body.is-home footer .wrap{max-width:1180px}
 .h-week h2{color:#fff}.h-week .h-body{color:#c9d4cf}
 .h-week h3{color:#fff}.h-week .week3 p{color:#b9c7c1}
 .h-week .week3 > div{border-top-color:var(--brass)}
+/* Mid-width fixes, 27 Nov 2026 */
+header.top nav a.cta{white-space:nowrap}
+@media (max-width:980px){
+  header.top nav a.hide-s{display:none}
+  body.is-home header.top .logo span,header.top .logo span{display:none}
+}
+.mv-card .mv-name{overflow-wrap:normal;hyphens:none;word-break:normal}
+@media (max-width:1100px){
+  .mv-card .mv-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -34px;padding:0 34px 6px;scrollbar-width:none}
+  .mv-card .mv-row::-webkit-scrollbar{display:none}
+  .mv-card .mv-row li{flex:0 0 220px;scroll-snap-align:start}
+}
+@media (max-width:600px){.mv-card .mv-row{margin:0 -20px;padding:0 20px 6px}.mv-card .mv-row li{flex-basis:72%}}
+.h-week + .h-people{padding-top:96px}
+@media (max-width:600px){.h-week + .h-people{padding-top:64px}}
