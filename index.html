@@ -534,5 +534,16 @@
   });
 })();
 </script>
+<script>(function(){try{
+  /* Phones: show the first few kinds of agency and sign families, with a button for the rest. */
+  if(!window.matchMedia('(max-width:600px)').matches)return;
+  [['.watch-grid','Show all 14 kinds of agency'],['.fam-grid','Show all 7 families of signs']].forEach(function(x){
+    var el=document.querySelector(x[0]); if(!el)return;
+    el.classList.add('clip');
+    var b=document.createElement('button'); b.type='button'; b.className='more-btn'; b.textContent=x[1];
+    b.addEventListener('click',function(){el.classList.remove('clip');b.remove();});
+    el.parentNode.insertBefore(b,el.nextSibling);
+  });
+}catch(e){}})();</script>
 </body>
 </html>
