@@ -403,6 +403,7 @@ body.is-home header.top .wrap,body.is-home footer .wrap{max-width:1180px}
   .tabs,.ptabs{flex-wrap:wrap;overflow:visible}
   .tabs button,.ptabs button{flex:1 1 auto;min-height:44px;white-space:normal}
   .b-replay{min-height:44px;padding:0 16px}
+  .ladder a:not(.btn),a.h-link{display:inline-block;padding:12px 0 2px}
   .watch-grid .w-sign a{padding:10px 0;margin:-10px 0}
   .h-where .shot{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
   .h-where .shot img{width:780px;max-width:none;height:auto}
