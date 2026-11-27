@@ -72,8 +72,8 @@ section.dark{background:var(--accent);color:#f6f3ec;border-top:none}
 section.dark .k,section.dark .small,section.dark .lede{color:#cfe0d9}
 section.dark h2{color:#fff}
 .grid{display:grid;gap:24px}
-.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
-.g3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr))}
 .g4{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px}
 .card p{margin:.4em 0 0}
@@ -338,3 +338,11 @@ h3 .lvl-tag{margin-left:6px;margin-right:0}
   .tr-table td:nth-child(5){grid-area:outcome;font-size:13px;color:var(--muted)}
   .tr-table td:nth-child(5)::before{content:"Outcome: "}
 }
+@media (max-width:980px){header.top .logo span{display:none}}
+header.top nav{display:flex;align-items:center;gap:6px}
+header.top nav a{white-space:nowrap}
+td a,.src a{overflow-wrap:anywhere}
+@media (max-width:600px){main table:not(.facts):not(.tr-table){display:block;overflow-x:auto;max-width:100%}}
+table.facts,table.facts td,table.facts th{box-sizing:border-box}
+@media (max-width:600px){table.facts td{max-width:100%}}
+@media (max-width:600px){table.facts td,table.facts td.d{display:block;white-space:normal}}
